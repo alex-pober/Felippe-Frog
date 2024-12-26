@@ -5,11 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Button } from "./ui/button";
-import { PressKitModal } from "./PressKitModal";
-
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isPressKitOpen, setIsPressKitOpen] = useState(false);
 
   const menuItems = ["Home", "Media", "Contact"];
 
@@ -68,12 +65,12 @@ export function Navigation() {
                 {item}
               </Link>
             ))}
-            <button
-              onClick={() => setIsPressKitOpen(true)}
-              className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors text-center"
-            >
-              Press Kit
-            </button>
+              <Link
+                href="/EPK-FINAL.pdf"
+                className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
+              >
+                Press Kit
+              </Link>
           </div>
         )}
       </nav>
