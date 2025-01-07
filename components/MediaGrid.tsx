@@ -13,7 +13,7 @@ export function MediaGrid() {
   ];
 
   return (
-    <div id="media-section" className="md:mt-12">
+    <div id="media-section" className="mt-6 md:mt-12">
       <div className="flex justify-center mb-8">
         <button 
           onClick={scrollToMedia}

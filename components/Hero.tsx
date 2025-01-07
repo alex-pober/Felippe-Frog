@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <div className="relative min-h-[700px]  overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10 h-full py-8">
+    <div className="relative min-h-[500px]  overflow-hidden">
+      <div className="flex flex-col md:flex-row items-center gap-8 relative z-10 h-full ">
         <div className="max-w-2xl">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-green-800 mb-4 md:mb-8 bg-white/30 backdrop-blur-sm p-4 rounded-xl inline-block">
             Welcome to the Lilypad!

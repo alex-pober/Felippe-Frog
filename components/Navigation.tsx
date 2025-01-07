@@ -30,7 +30,7 @@ export function Navigation() {
 
   return (
     <>
-      <nav className="relative z-50 p-6">
+      <nav className="relative z-50 pt-6 px-6 pb-0">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
