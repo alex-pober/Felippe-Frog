@@ -1,3 +1,7 @@
+'use client';
+
+import { scrollToMedia } from '@/utils/scrollUtils';
+
 export function MediaGrid() {
   const mediaItems = [
     { title: "Video 1", subtitle: "Tomorrowland" },
@@ -9,8 +13,18 @@ export function MediaGrid() {
   ];
 
   return (
-    <div className="mt-20 pb-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
+    <div id="media-section" className="md:mt-12">
+      <div className="flex justify-center mb-8">
+        <button 
+          onClick={scrollToMedia}
+          className="px-6 md:px-8 py-3 md:py-4 bg-green-500/80 text-white rounded-xl text-lg md:text-xl hover:bg-green-600/80 transition-colors"
+        >
+          Media
+        </button>
+      </div>
+      <div 
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8"
+      >
         {mediaItems.map((item, i) => (
           <div
             key={i}

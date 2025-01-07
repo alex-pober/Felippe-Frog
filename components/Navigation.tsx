@@ -5,10 +5,28 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { scrollToMedia } from "@/utils/scrollUtils";
+
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Home", "Media", "Contact"];
+  const menuItems = ["Media", "Contact"];
+
+  const handleClick = (e: React.MouseEvent, item: string) => {
+    if (item === "Media") {
+      e.preventDefault();
+      scrollToMedia();
+    } else if (item === "Contact") {
+      e.preventDefault();
+      const element = document.getElementById("contact");
+      if (element) {
+        element.scrollIntoView({ 
+          behavior: "smooth",
+          block: "start"
+        });
+      }
+    }
+  };
 
   return (
     <>
@@ -23,56 +41,27 @@ export function Navigation() {
               priority
             />
           </div>
-          
-          {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            className="lg:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            <Menu className="h-6 w-6" />
-          </Button>
 
-          {/* Desktop Menu */}
-          <div className="hidden lg:flex gap-8">
+          <div className="flex gap-2 ml-auto">
             {menuItems.map((item) => (
               <Link
                 key={item}
-                href="*"
+                href={item === "Contact" ? "#contact" : "#"}
+                onClick={(e) => handleClick(e, item)}
                 className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
               >
                 {item}
               </Link>
             ))}
-              <Link
-                href="/EPK-FINAL.pdf"
-                className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
-              >
-                Press Kit
-              </Link>
+            <Link
+              href="/EPK-FINAL.pdf"
+              className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
+            >
+              Press Kit
+            </Link>
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="lg:hidden fixed top-[88px] left-0 right-0 bg-white/90 backdrop-blur-sm p-4 flex flex-col gap-2 shadow-lg">
-            {menuItems.map((item) => (
-              <Link
-                key={item}
-                href="#"
-                className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors text-center"
-              >
-                {item}
-              </Link>
-            ))}
-              <Link
-                href="/EPK-FINAL.pdf"
-                className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
-              >
-                Press Kit
-              </Link>
-          </div>
-        )}
       </nav>
     </>
   );
