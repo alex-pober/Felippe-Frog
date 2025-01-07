@@ -15,7 +15,7 @@ const Footer = () => {
     },
     {
       icon: <SiLinktree size={iconSize} className="text-[#43E660] hover:scale-110 transition-transform" />,
-      href: 'hhttps://linktr.ee/felippefrogg',
+      href: 'https://linktr.ee/felippefrogg',
       label: 'Linktree'
     },
     {
