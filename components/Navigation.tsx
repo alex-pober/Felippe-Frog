@@ -24,13 +24,15 @@ export function Navigation() {
       <nav className="relative z-50 pt-6 px-6 pb-0">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image
-              src="/Logo.svg"
-              alt="Logo"
-              width={48}
-              height={48}
-              priority
-            />
+            <Link href="/">
+              <Image
+                src="/Logo.svg"
+                alt="Logo"
+                width={48}
+                height={48}
+                priority
+              />
+            </Link>
           </div>
 
           <div className="flex gap-2 ml-auto">

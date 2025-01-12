@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Navigation } from "@/components/Navigation";
+import { SiLinktree } from 'react-icons/si';
 import Footer from "@/components/Footer";
 
 export default function Contact() {
@@ -14,7 +15,7 @@ export default function Contact() {
       }}>
       <Navigation />
       
-      <main className="relative z-10 max-w-3xl mx-auto mtgit -6 px-4 md:px-6 py-12 bg-white/30 backdrop-blur-sm p-4 rounded-xl">
+      <main className="relative z-10 max-w-3xl mx-auto mt-6 px-4 md:px-6 py-12 bg-white/30 backdrop-blur-sm p-4 rounded-xl">
           <h1 className="text-4xl font-bold text-center mb-4">Bring Felippe to Your Festival!</h1>
           <p className="text-xl text-center mb-12">
             Enhance your festival with Felippe Frogg, a unique roamer creating unforgettable moments.
@@ -43,7 +44,7 @@ export default function Contact() {
             </div>
             
             <div className="flex items-center gap-4">
-              <Image src="/linktree-icon.svg" alt="Linktree" width={40} height={40} />
+              <SiLinktree className="w-10 h-10 text-[#43E660]" />
               <a href="https://linktr.ee/felippefrogg" 
                  className="text-lg hover:underline"
                  target="_blank"
