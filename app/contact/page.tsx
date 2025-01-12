@@ -14,7 +14,7 @@ export default function Contact() {
       }}>
       <Navigation />
       
-      <main className="relative z-10 max-w-3xl mx-auto px-4 md:px-6 py-12 bg-white/30 backdrop-blur-sm p-4 rounded-xl">
+      <main className="relative z-10 max-w-3xl mx-auto mtgit -6 px-4 md:px-6 py-12 bg-white/30 backdrop-blur-sm p-4 rounded-xl">
           <h1 className="text-4xl font-bold text-center mb-4">Bring Felippe to Your Festival!</h1>
           <p className="text-xl text-center mb-12">
             Enhance your festival with Felippe Frogg, a unique roamer creating unforgettable moments.
