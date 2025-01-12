@@ -16,15 +16,6 @@ export function Navigation() {
     if (item === "Media") {
       e.preventDefault();
       scrollToMedia();
-    } else if (item === "Contact") {
-      e.preventDefault();
-      const element = document.getElementById("contact");
-      if (element) {
-        element.scrollIntoView({ 
-          behavior: "smooth",
-          block: "start"
-        });
-      }
     }
   };
 
@@ -46,8 +37,8 @@ export function Navigation() {
             {menuItems.map((item) => (
               <Link
                 key={item}
-                href={item === "Contact" ? "#contact" : "#"}
-                onClick={(e) => handleClick(e, item)}
+                href={item === "Contact" ? "/contact" : "#"}
+                onClick={(e) => item === "Media" ? handleClick(e, item) : undefined}
                 className="px-4 py-2 rounded-full bg-yellow-200/80 text-green-800 hover:bg-yellow-300/80 transition-colors"
               >
                 {item}
