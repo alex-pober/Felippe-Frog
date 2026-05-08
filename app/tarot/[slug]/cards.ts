@@ -149,9 +149,9 @@ export const cards: TarotCard[] = [
     ],
   },
   {
-    slug: 'thealignmnet',
-    title: 'The Alignmnet',
-    image: '/tarot/the_alignmnet.png',
+    slug: 'thealignment',
+    title: 'The Alignment',
+    image: '/tarot/the_alignment.png',
     paragraphs: [
       'Things are lining up naturally.',
       'Stop forcing, start allowing.',
