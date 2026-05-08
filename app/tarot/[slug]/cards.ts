@@ -9,8 +9,8 @@ export const cards: TarotCard[] = [
     title: 'The Frog',
     image: '/tarot/the_frog.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You are exactly where you need to be.',
+      'Even if it feels weird, it\'s right.',
     ],
   },
   {
@@ -18,8 +18,8 @@ export const cards: TarotCard[] = [
     title: 'The Pond',
     image: '/tarot/the_pond.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Your environment is supporting your growth.',
+      'Let it hold you.',
     ],
   },
   {
@@ -27,8 +27,8 @@ export const cards: TarotCard[] = [
     title: 'The Lily Pad',
     image: '/tarot/the_lily_pad.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Rest is part of progress.',
+      'Floating is allowed.',
     ],
   },
   {
@@ -36,8 +36,8 @@ export const cards: TarotCard[] = [
     title: 'The Bubble',
     image: '/tarot/the_bubble.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Joy rises when you stop overthinking.',
+      'Very playful. Unique. Visually fun.',
     ],
   },
   {
@@ -45,8 +45,8 @@ export const cards: TarotCard[] = [
     title: 'The Tadpole',
     image: '/tarot/the_tadpole.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You\'re in a phase of becoming.',
+      'Trust the transformation.',
     ],
   },
   {
@@ -54,8 +54,8 @@ export const cards: TarotCard[] = [
     title: 'The Rain',
     image: '/tarot/the_rain.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Renewal is happening.',
+      'Something fresh is entering your life.',
     ],
   },
   {
@@ -63,8 +63,8 @@ export const cards: TarotCard[] = [
     title: 'The Moss',
     image: '/tarot/the_moss.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Your softness is your strength.',
+      'You are growing in quiet places, and it is becoming beautiful.',
     ],
   },
   {
@@ -72,8 +72,8 @@ export const cards: TarotCard[] = [
     title: 'The Ripple',
     image: '/tarot/the_ripple.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Your energy is affecting others positively.',
+      'You matter more than you think.',
     ],
   },
   {
@@ -81,8 +81,8 @@ export const cards: TarotCard[] = [
     title: 'The Leap',
     image: '/tarot/the_leap.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Take the chance.',
+      'You\'re ready.',
     ],
   },
   {
@@ -90,8 +90,8 @@ export const cards: TarotCard[] = [
     title: 'The Prince',
     image: '/tarot/the_prince.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You carry quiet confidence.',
+      'Step into it.',
     ],
   },
   {
@@ -99,8 +99,8 @@ export const cards: TarotCard[] = [
     title: 'The Drop',
     image: '/tarot/the_drop.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'A peak moment is coming.',
+      'Be fully present for it.',
     ],
   },
   {
@@ -108,8 +108,8 @@ export const cards: TarotCard[] = [
     title: 'The Dance',
     image: '/tarot/the_dance.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Express yourself freely.',
+      'Your energy is magnetic.',
     ],
   },
   {
@@ -117,8 +117,8 @@ export const cards: TarotCard[] = [
     title: 'The Spark',
     image: '/tarot/the_spark.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'A meaningful connection is forming.',
+      'Follow the feeling.',
     ],
   },
   {
@@ -126,8 +126,8 @@ export const cards: TarotCard[] = [
     title: 'The Crowd',
     image: '/tarot/the_crowd.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You belong here.',
+      'You\'re part of something bigger.',
     ],
   },
   {
@@ -135,8 +135,17 @@ export const cards: TarotCard[] = [
     title: 'The Gift',
     image: '/tarot/the_gift.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Something unexpected and good is coming.',
+      'Stay open.',
+    ],
+  },
+  {
+    slug: 'theglow',
+    title: 'The Glow',
+    image: '/tarot/the_glow.png',
+    paragraphs: [
+      'You\'re shining right now.',
+      'Don\'t dim it.',
     ],
   },
   {
@@ -144,8 +153,8 @@ export const cards: TarotCard[] = [
     title: 'The Alignmnet',
     image: '/tarot/the_alignmnet.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'Things are lining up naturally.',
+      'Stop forcing, start allowing.',
     ],
   },
   {
@@ -153,8 +162,8 @@ export const cards: TarotCard[] = [
     title: 'The Moment',
     image: '/tarot/the_moment.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'This right now is important.',
+      'Soak it in.',
     ],
   },
   {
@@ -162,8 +171,8 @@ export const cards: TarotCard[] = [
     title: 'The Pass',
     image: '/tarot/the_pass.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You\'ve been granted access (literal or energetic).',
+      'Say yes to what appears.',
     ],
   },
   {
@@ -171,8 +180,8 @@ export const cards: TarotCard[] = [
     title: 'The Chosen',
     image: '/tarot/the_chosen.png',
     paragraphs: [
-      'Some special text for this card goes here.',
-      'Another paragraph if you want one.',
+      'You\'ve been noticed (in the best way).',
+      'Something special is unfolding for you.',
     ],
   },
 ];
