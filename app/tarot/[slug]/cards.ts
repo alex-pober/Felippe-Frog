@@ -37,7 +37,6 @@ export const cards: TarotCard[] = [
     image: '/tarot/the_bubble.png',
     paragraphs: [
       'Joy rises when you stop overthinking.',
-      'Very playful. Unique. Visually fun.',
     ],
   },
   {
