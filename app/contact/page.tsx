@@ -22,44 +22,43 @@ export default function Contact() {
           </p>
           
           <div className="space-y-6 flex flex-col items-center">
-            {/* Social Links */}
-            <div className="flex items-center gap-4">
-              <Image src="/instagram-icon.svg" alt="Instagram" width={40} height={40} />
-              <a href="https://www.instagram.com/feleapfrog/" 
-                 className="text-lg hover:underline"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                https://www.instagram.com/feleapfrog/
-              </a>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <Image src="/linkedin-icon.svg" alt="LinkedIn" width={40} height={40} />
-              <a href="https://www.linkedin.com/in/feleapfrog/" 
-                 className="text-lg hover:underline"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                https://www.linkedin.com/in/feleapfrog/
-              </a>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <SiLinktree className="w-10 h-10 text-[#43E660]" />
-              <a href="https://linktr.ee/feleapfrog" 
-                 className="text-lg hover:underline"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                https://linktr.ee/feleapfrog
-              </a>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <Image src="/gmail-icon.svg" alt="Email" width={40} height={40} />
-              <a href="mailto:feleapfrog@gmail.com" 
-                 className="text-lg hover:underline">
-                feleapfrog@gmail.com
-              </a>
-            </div>
+            <a
+              href="https://www.instagram.com/feleapfrog/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/30 backdrop-blur-sm text-green-800 hover:bg-white/40 transition-colors"
+            >
+              <Image src="/instagram-icon.svg" alt="Instagram" width={32} height={32} />
+              <span className="text-xl font-medium">Instagram</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/feleapfrog/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/30 backdrop-blur-sm text-green-800 hover:bg-white/40 transition-colors"
+            >
+              <Image src="/linkedin-icon.svg" alt="LinkedIn" width={32} height={32} />
+              <span className="text-xl font-medium">Linkedin</span>
+            </a>
+
+            <a
+              href="https://linktr.ee/feleapfrog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/30 backdrop-blur-sm text-green-800 hover:bg-white/40 transition-colors"
+            >
+              <SiLinktree className="w-8 h-8 text-[#43E660]" />
+              <span className="text-xl font-medium">Linktree</span>
+            </a>
+
+            <a
+              href="mailto:feleapfrog@gmail.com"
+              className="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-white/30 backdrop-blur-sm text-green-800 hover:bg-white/40 transition-colors"
+            >
+              <Image src="/gmail-icon.svg" alt="Email" width={32} height={32} />
+              <span className="text-xl font-medium">Email</span>
+            </a>
           </div>
           
           {/* QR Code */}
