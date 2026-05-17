@@ -38,6 +38,20 @@ export default function TarotCardPage({ params }: { params: { slug: string } }) 
             <p key={i}>{para}</p>
           ))}
         </div>
+
+        {c.readMore?.length > 0 && (
+          <details className="group mt-6 rounded-lg bg-white/50 backdrop-blur-sm border border-white/40 shadow-sm">
+            <summary className="cursor-pointer list-none px-4 py-3 text-green-800 font-semibold flex items-center justify-between select-none">
+              <span>Read More</span>
+              <span className="transition-transform duration-200 group-open:rotate-180" aria-hidden="true">▾</span>
+            </summary>
+            <div className="px-4 pb-4 space-y-3 text-green-900 text-left">
+              {c.readMore.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+          </details>
+        )}
       </article>
     </main>
   );
