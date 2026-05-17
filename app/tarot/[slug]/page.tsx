@@ -33,7 +33,7 @@ export default function TarotCardPage({ params }: { params: { slug: string } }) 
           loading="lazy"
         />
 
-        <div className="space-y-4 text-lg text-green-900">
+        <div className="space-y-4 text-lg text-green-900 text-center font-bold">
           {c.paragraphs.map((para, i) => (
             <p key={i}>{para}</p>
           ))}
