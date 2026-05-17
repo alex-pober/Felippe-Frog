@@ -10,22 +10,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <FaInstagram size={iconSize} className="text-[#E1306C] hover:scale-110 transition-transform" />,
-      href: 'https://www.instagram.com/felippefrogg/',
+      href: 'https://www.instagram.com/feleapfrog/',
       label: 'Instagram'
     },
     {
       icon: <SiLinktree size={iconSize} className="text-[#43E660] hover:scale-110 transition-transform" />,
-      href: 'https://linktr.ee/felippefrogg',
+      href: 'https://linktr.ee/feleapfrog',
       label: 'Linktree'
     },
     {
       icon: <FaLinkedin size={iconSize} className="text-[#0077B5] hover:scale-110 transition-transform" />,
-      href: 'https://www.linkedin.com/in/felippefrogg/',
+      href: 'https://www.linkedin.com/in/feleapfrog/',
       label: 'LinkedIn'
     },
     {
       icon: <MdEmail size={iconSize} className="text-[#EA4335] hover:scale-110 transition-transform" />,
-      href: 'mailto:felippefrogg@gmail.com',
+      href: 'mailto:feleapfrog@gmail.com',
       label: 'Email'
     }
   ];
