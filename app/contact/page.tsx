@@ -16,48 +16,48 @@ export default function Contact() {
       <Navigation />
       
       <main className="relative z-10 max-w-3xl mx-auto mt-6 px-4 md:px-6 py-12 bg-white/30 backdrop-blur-sm p-4 rounded-xl">
-          <h1 className="text-4xl font-bold text-center mb-4">Bring Felippe to Your Festival!</h1>
+          <h1 className="text-4xl font-bold text-center mb-4">Bring Feleap to Your Festival!</h1>
           <p className="text-xl text-center mb-12">
-            Enhance your festival with Felippe Frogg, a unique roamer creating unforgettable moments.
+            Enhance your festival with Feleap Frog, a unique roamer creating unforgettable moments.
           </p>
           
           <div className="space-y-6 flex flex-col items-center">
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <Image src="/instagram-icon.svg" alt="Instagram" width={40} height={40} />
-              <a href="https://www.instagram.com/felippefrogg/" 
+              <a href="https://www.instagram.com/feleapfrog/" 
                  className="text-lg hover:underline"
                  target="_blank"
                  rel="noopener noreferrer">
-                https://www.instagram.com/felippefrogg/
+                https://www.instagram.com/feleapfrog/
               </a>
             </div>
             
             <div className="flex items-center gap-4">
               <Image src="/linkedin-icon.svg" alt="LinkedIn" width={40} height={40} />
-              <a href="https://www.linkedin.com/in/felippefrogg/" 
+              <a href="https://www.linkedin.com/in/feleapfrog/" 
                  className="text-lg hover:underline"
                  target="_blank"
                  rel="noopener noreferrer">
-                https://www.linkedin.com/in/felippefrogg/
+                https://www.linkedin.com/in/feleapfrog/
               </a>
             </div>
             
             <div className="flex items-center gap-4">
               <SiLinktree className="w-10 h-10 text-[#43E660]" />
-              <a href="https://linktr.ee/felippefrogg" 
+              <a href="https://linktr.ee/feleapfrog" 
                  className="text-lg hover:underline"
                  target="_blank"
                  rel="noopener noreferrer">
-                https://linktr.ee/felippefrogg
+                https://linktr.ee/feleapfrog
               </a>
             </div>
             
             <div className="flex items-center gap-4">
               <Image src="/gmail-icon.svg" alt="Email" width={40} height={40} />
-              <a href="mailto:felippefrogg@gmail.com" 
+              <a href="mailto:feleapfrog@gmail.com" 
                  className="text-lg hover:underline">
-                felippefrogg@gmail.com
+                feleapfrog@gmail.com
               </a>
             </div>
           </div>
