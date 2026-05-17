@@ -62,15 +62,16 @@ export default function Contact() {
           </div>
           
           {/* QR Code */}
-          <div className="mt-12 text-center">
-            <Image 
-              src="/qr-code.png" 
-              alt="QR Code" 
-              width={200} 
-              height={200} 
-              className="mx-auto"
-            />
-            <p className="text-xl mt-4">Scan Me to Connect!</p>
+          <div className="mt-12 flex justify-center">
+            <div className="inline-flex flex-col items-center gap-4 px-8 py-6 rounded-2xl bg-white/30 backdrop-blur-sm">
+              <Image
+                src="/qr-code.png"
+                alt="QR Code"
+                width={200}
+                height={200}
+              />
+              <p className="text-xl font-medium text-green-800">Scan Me to Connect!</p>
+            </div>
           </div>
       </main>
       
