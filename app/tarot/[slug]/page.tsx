@@ -20,7 +20,7 @@ export default function TarotCardPage({ params }: { params: { slug: string } }) 
   if (!c) notFound();
 
   return (
-    <main className="relative z-10 min-h-screen flex items-center justify-center p-4 py-12">
+    <main className="relative z-10 flex items-start justify-center p-4 pt-4 pb-12">
       <article className="w-full max-w-2xl bg-white/30 backdrop-blur-sm p-6 md:p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-bold text-green-800 mb-6 text-center">
           {c.title}
