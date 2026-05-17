@@ -11,7 +11,7 @@ export function Hero() {
           
           <div className="space-y-4 md:space-y-6 text-lg md:text-xl text-green-900">
             <p className="bg-white/30 backdrop-blur-sm p-4 rounded-xl inline-block">
-              Hi there, friend! I&apos;m Felippe Frogg, your mischievous guide to a world of whimsy and festival magic.
+              Hi there, friend! I&apos;m Feleap Frog, your mischievous guide to a world of whimsy and festival magic.
             </p>
             
             <p className="bg-white/30 backdrop-blur-sm p-4 rounded-xl inline-block">
