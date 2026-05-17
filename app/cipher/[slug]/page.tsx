@@ -32,6 +32,12 @@ export default function CipherPage({ params }: { params: { slug: string } }) {
           className="w-full rounded-lg"
           loading="lazy"
         />
+
+        {p.body && (
+          <p className="mt-6 text-lg md:text-xl text-green-800 text-center">
+            {p.body}
+          </p>
+        )}
       </article>
     </main>
   );

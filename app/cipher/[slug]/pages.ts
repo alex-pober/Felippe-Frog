@@ -3,6 +3,7 @@ export type CipherPage = {
   title: string;
   image: string;
   imageAlt?: string;
+  body?: string;
 };
 
 export const pages: CipherPage[] = [
@@ -23,5 +24,12 @@ export const pages: CipherPage[] = [
     title: '3 _ _',
     image: '/tarot/the_chosen.png',
     imageAlt: 'placeholder',
+  },
+  {
+    slug: 'haven',
+    title: 'Congratulations!',
+    image: '/tarot/the_gift.png',
+    imageAlt: 'placeholder',
+    body: 'Meet us at [location] on [date] at [time].',
   },
 ];
